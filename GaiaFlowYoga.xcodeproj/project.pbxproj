@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8197EF761D9C6B41003FEC9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197EF751D9C6B41003FEC9C /* AppDelegate.swift */; };
+		8197EF781D9C6B41003FEC9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197EF771D9C6B41003FEC9C /* ViewController.swift */; };
+		8197EF7B1D9C6B41003FEC9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8197EF791D9C6B41003FEC9C /* Main.storyboard */; };
+		8197EF7E1D9C6B42003FEC9C /* GaiaFlowYoga.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8197EF7C1D9C6B41003FEC9C /* GaiaFlowYoga.xcdatamodeld */; };
+		8197EF801D9C6B42003FEC9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8197EF7F1D9C6B42003FEC9C /* Assets.xcassets */; };
+		8197EF831D9C6B42003FEC9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8197EF811D9C6B42003FEC9C /* LaunchScreen.storyboard */; };
+		8197EF8E1D9C6B42003FEC9C /* GaiaFlowYogaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197EF8D1D9C6B42003FEC9C /* GaiaFlowYogaTests.swift */; };
+		8197EF991D9C6B42003FEC9C /* GaiaFlowYogaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197EF981D9C6B42003FEC9C /* GaiaFlowYogaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8197EF8A1D9C6B42003FEC9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8197EF6A1D9C6B41003FEC9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8197EF711D9C6B41003FEC9C;
+			remoteInfo = GaiaFlowYoga;
+		};
+		8197EF951D9C6B42003FEC9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8197EF6A1D9C6B41003FEC9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8197EF711D9C6B41003FEC9C;
+			remoteInfo = GaiaFlowYoga;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8197EF721D9C6B41003FEC9C /* GaiaFlowYoga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaiaFlowYoga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8197EF751D9C6B41003FEC9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8197EF771D9C6B41003FEC9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8197EF7A1D9C6B41003FEC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8197EF7D1D9C6B41003FEC9C /* GaiaFlowYoga.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GaiaFlowYoga.xcdatamodel; sourceTree = "<group>"; };
+		8197EF7F1D9C6B42003FEC9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8197EF821D9C6B42003FEC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8197EF841D9C6B42003FEC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8197EF891D9C6B42003FEC9C /* GaiaFlowYogaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaiaFlowYogaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8197EF8D1D9C6B42003FEC9C /* GaiaFlowYogaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaiaFlowYogaTests.swift; sourceTree = "<group>"; };
+		8197EF8F1D9C6B42003FEC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8197EF941D9C6B42003FEC9C /* GaiaFlowYogaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaiaFlowYogaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8197EF981D9C6B42003FEC9C /* GaiaFlowYogaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaiaFlowYogaUITests.swift; sourceTree = "<group>"; };
+		8197EF9A1D9C6B42003FEC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8197EF6F1D9C6B41003FEC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8197EF861D9C6B42003FEC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8197EF911D9C6B42003FEC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8197EF691D9C6B41003FEC9C = {
+			isa = PBXGroup;
+			children = (
+				8197EF741D9C6B41003FEC9C /* GaiaFlowYoga */,
+				8197EF8C1D9C6B42003FEC9C /* GaiaFlowYogaTests */,
+				8197EF971D9C6B42003FEC9C /* GaiaFlowYogaUITests */,
+				8197EF731D9C6B41003FEC9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8197EF731D9C6B41003FEC9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8197EF721D9C6B41003FEC9C /* GaiaFlowYoga.app */,
+				8197EF891D9C6B42003FEC9C /* GaiaFlowYogaTests.xctest */,
+				8197EF941D9C6B42003FEC9C /* GaiaFlowYogaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8197EF741D9C6B41003FEC9C /* GaiaFlowYoga */ = {
+			isa = PBXGroup;
+			children = (
+				8197EF751D9C6B41003FEC9C /* AppDelegate.swift */,
+				8197EF771D9C6B41003FEC9C /* ViewController.swift */,
+				8197EF791D9C6B41003FEC9C /* Main.storyboard */,
+				8197EF7F1D9C6B42003FEC9C /* Assets.xcassets */,
+				8197EF811D9C6B42003FEC9C /* LaunchScreen.storyboard */,
+				8197EF841D9C6B42003FEC9C /* Info.plist */,
+				8197EF7C1D9C6B41003FEC9C /* GaiaFlowYoga.xcdatamodeld */,
+			);
+			path = GaiaFlowYoga;
+			sourceTree = "<group>";
+		};
+		8197EF8C1D9C6B42003FEC9C /* GaiaFlowYogaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8197EF8D1D9C6B42003FEC9C /* GaiaFlowYogaTests.swift */,
+				8197EF8F1D9C6B42003FEC9C /* Info.plist */,
+			);
+			path = GaiaFlowYogaTests;
+			sourceTree = "<group>";
+		};
+		8197EF971D9C6B42003FEC9C /* GaiaFlowYogaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8197EF981D9C6B42003FEC9C /* GaiaFlowYogaUITests.swift */,
+				8197EF9A1D9C6B42003FEC9C /* Info.plist */,
+			);
+			path = GaiaFlowYogaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8197EF711D9C6B41003FEC9C /* GaiaFlowYoga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8197EF9D1D9C6B42003FEC9C /* Build configuration list for PBXNativeTarget "GaiaFlowYoga" */;
+			buildPhases = (
+				8197EF6E1D9C6B41003FEC9C /* Sources */,
+				8197EF6F1D9C6B41003FEC9C /* Frameworks */,
+				8197EF701D9C6B41003FEC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaiaFlowYoga;
+			productName = GaiaFlowYoga;
+			productReference = 8197EF721D9C6B41003FEC9C /* GaiaFlowYoga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8197EF881D9C6B42003FEC9C /* GaiaFlowYogaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8197EFA01D9C6B42003FEC9C /* Build configuration list for PBXNativeTarget "GaiaFlowYogaTests" */;
+			buildPhases = (
+				8197EF851D9C6B42003FEC9C /* Sources */,
+				8197EF861D9C6B42003FEC9C /* Frameworks */,
+				8197EF871D9C6B42003FEC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8197EF8B1D9C6B42003FEC9C /* PBXTargetDependency */,
+			);
+			name = GaiaFlowYogaTests;
+			productName = GaiaFlowYogaTests;
+			productReference = 8197EF891D9C6B42003FEC9C /* GaiaFlowYogaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8197EF931D9C6B42003FEC9C /* GaiaFlowYogaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8197EFA31D9C6B42003FEC9C /* Build configuration list for PBXNativeTarget "GaiaFlowYogaUITests" */;
+			buildPhases = (
+				8197EF901D9C6B42003FEC9C /* Sources */,
+				8197EF911D9C6B42003FEC9C /* Frameworks */,
+				8197EF921D9C6B42003FEC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8197EF961D9C6B42003FEC9C /* PBXTargetDependency */,
+			);
+			name = GaiaFlowYogaUITests;
+			productName = GaiaFlowYogaUITests;
+			productReference = 8197EF941D9C6B42003FEC9C /* GaiaFlowYogaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8197EF6A1D9C6B41003FEC9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "John Hurdle";
+				TargetAttributes = {
+					8197EF711D9C6B41003FEC9C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8197EF881D9C6B42003FEC9C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8197EF711D9C6B41003FEC9C;
+					};
+					8197EF931D9C6B42003FEC9C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8197EF711D9C6B41003FEC9C;
+					};
+				};
+			};
+			buildConfigurationList = 8197EF6D1D9C6B41003FEC9C /* Build configuration list for PBXProject "GaiaFlowYoga" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8197EF691D9C6B41003FEC9C;
+			productRefGroup = 8197EF731D9C6B41003FEC9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8197EF711D9C6B41003FEC9C /* GaiaFlowYoga */,
+				8197EF881D9C6B42003FEC9C /* GaiaFlowYogaTests */,
+				8197EF931D9C6B42003FEC9C /* GaiaFlowYogaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8197EF701D9C6B41003FEC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8197EF831D9C6B42003FEC9C /* LaunchScreen.storyboard in Resources */,
+				8197EF801D9C6B42003FEC9C /* Assets.xcassets in Resources */,
+				8197EF7B1D9C6B41003FEC9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8197EF871D9C6B42003FEC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8197EF921D9C6B42003FEC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8197EF6E1D9C6B41003FEC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8197EF7E1D9C6B42003FEC9C /* GaiaFlowYoga.xcdatamodeld in Sources */,
+				8197EF781D9C6B41003FEC9C /* ViewController.swift in Sources */,
+				8197EF761D9C6B41003FEC9C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8197EF851D9C6B42003FEC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8197EF8E1D9C6B42003FEC9C /* GaiaFlowYogaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8197EF901D9C6B42003FEC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8197EF991D9C6B42003FEC9C /* GaiaFlowYogaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8197EF8B1D9C6B42003FEC9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8197EF711D9C6B41003FEC9C /* GaiaFlowYoga */;
+			targetProxy = 8197EF8A1D9C6B42003FEC9C /* PBXContainerItemProxy */;
+		};
+		8197EF961D9C6B42003FEC9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8197EF711D9C6B41003FEC9C /* GaiaFlowYoga */;
+			targetProxy = 8197EF951D9C6B42003FEC9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8197EF791D9C6B41003FEC9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8197EF7A1D9C6B41003FEC9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8197EF811D9C6B42003FEC9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8197EF821D9C6B42003FEC9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8197EF9B1D9C6B42003FEC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8197EF9C1D9C6B42003FEC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8197EF9E1D9C6B42003FEC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GaiaFlowYoga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JohnHurdle.GaiaFlowYoga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8197EF9F1D9C6B42003FEC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GaiaFlowYoga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JohnHurdle.GaiaFlowYoga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8197EFA11D9C6B42003FEC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GaiaFlowYogaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JohnHurdle.GaiaFlowYogaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaiaFlowYoga.app/GaiaFlowYoga";
+			};
+			name = Debug;
+		};
+		8197EFA21D9C6B42003FEC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GaiaFlowYogaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JohnHurdle.GaiaFlowYogaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaiaFlowYoga.app/GaiaFlowYoga";
+			};
+			name = Release;
+		};
+		8197EFA41D9C6B42003FEC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GaiaFlowYogaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JohnHurdle.GaiaFlowYogaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GaiaFlowYoga;
+			};
+			name = Debug;
+		};
+		8197EFA51D9C6B42003FEC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GaiaFlowYogaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JohnHurdle.GaiaFlowYogaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GaiaFlowYoga;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8197EF6D1D9C6B41003FEC9C /* Build configuration list for PBXProject "GaiaFlowYoga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8197EF9B1D9C6B42003FEC9C /* Debug */,
+				8197EF9C1D9C6B42003FEC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8197EF9D1D9C6B42003FEC9C /* Build configuration list for PBXNativeTarget "GaiaFlowYoga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8197EF9E1D9C6B42003FEC9C /* Debug */,
+				8197EF9F1D9C6B42003FEC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8197EFA01D9C6B42003FEC9C /* Build configuration list for PBXNativeTarget "GaiaFlowYogaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8197EFA11D9C6B42003FEC9C /* Debug */,
+				8197EFA21D9C6B42003FEC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8197EFA31D9C6B42003FEC9C /* Build configuration list for PBXNativeTarget "GaiaFlowYogaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8197EFA41D9C6B42003FEC9C /* Debug */,
+				8197EFA51D9C6B42003FEC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8197EF7C1D9C6B41003FEC9C /* GaiaFlowYoga.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8197EF7D1D9C6B41003FEC9C /* GaiaFlowYoga.xcdatamodel */,
+			);
+			currentVersion = 8197EF7D1D9C6B41003FEC9C /* GaiaFlowYoga.xcdatamodel */;
+			path = GaiaFlowYoga.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8197EF6A1D9C6B41003FEC9C /* Project object */;
+}
